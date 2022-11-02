@@ -100,6 +100,4 @@ We have also added the checkout and payment page. you can also see the items you
 ## Copy this link to clone the Github Repository
 https://github.com/sank29/tropical-drawer-5456
 
-## Video Link
-https://drive.google.com/file/d/18TWIpdSlUDhmhFjzVOn6sWcweLd5QADv/view?usp=sharing
 ## Thank You
