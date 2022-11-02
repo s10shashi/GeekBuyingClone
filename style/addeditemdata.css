@@ -1,0 +1,373 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: "Open Sans",sans-serif !important;
+}
+#yess{
+
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+  
+}
+#yess>img{
+    width: 100%;
+}
+
+.box{
+    margin-top: 20px;
+    width: 100%;
+    height: 550px;
+   
+    display: flex;
+    gap: 10px;
+}
+.box>div{
+
+    width: 40%;
+}
+.box>.innerbox1{
+   padding-top: 50px;
+   text-align: center;
+    height: 500px;
+}
+.image{
+    width: 420px;
+    height: 380px;
+  
+}
+.image:hover{
+   transform: scale(1.2) 
+}
+
+
+
+.box>.innerbox2{
+    width: 60%;
+    font-size: 7px;
+    line-height: 20px;
+    font-weight: 600;    
+    color: #2e2f32;
+    
+}
+.stardiv{
+    margin-top: 10px;
+    display: flex;
+    width: 500px;
+    font-size: 12px;
+    height: 20px;
+    gap: 25px;
+
+}
+.stardiv>div{
+    display: flex;
+}
+
+.pricediv{
+ 
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+   
+    
+}
+.pricediv>.price{
+    font-size: 28px;
+    line-height: 38px;
+    color: #2e2f32;
+    font-weight: 700;
+    vertical-align: top;
+}
+.cutprice{
+    font-size: 14px;
+    color: #999;
+    text-align: left;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 6px;
+    padding-right: 10px;
+    text-decoration: line-through;
+    vertical-align: top;
+}
+
+.discountdiv{
+    width: 66px;
+    height: 25px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #f1403c;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 800;
+    vertical-align: top;
+    margin-top: 4px;
+
+}
+
+.pricediv2{
+    display: flex;
+    margin-top: 10px;
+    gap: 5px;
+    
+}
+.priceinnerdiv2{
+    height: 20px;
+    color: black;
+}
+.mobilelogo{
+    width: 20px;
+    height: 20px;
+}
+.comment{
+    font-size: 13px;
+    color:grey;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+/* offer */
+.offerdiv{
+    display: flex;
+    margin-top: 15px;
+    padding-left: 25px;
+    gap: 25px;
+
+}
+.offerdiv>.offerinnerdiv1{
+    font-size: 13px;
+    height: 24px;
+    padding: 0 10px;
+    line-height: 24px;
+    overflow: hidden;
+    cursor: pointer;
+    vertical-align: top;
+    position: relative;
+    color: #06f;
+    text-align: center;
+    
+    background-color: #f1f6fd;
+    
+}
+.offerdiv>.offerinnerdiv2{
+    font-size: 13px;
+    height: 24px;
+    padding: 0 10px;
+    line-height: 24px;
+    overflow: hidden;
+    cursor: pointer;
+    vertical-align: top;
+    position: relative;
+    color: #06f;
+    text-align: center;
+}
+
+.hr{
+    size: 1px; 
+    width:100%;
+    color:#999;
+    color: #999;
+    background-color: #fff;
+    clear: both;
+    content: ".";
+    position: relative;
+    border-bottom: 1px solid #ebedf0;
+    margin-top: 20px;
+}   
+
+.bigdiv{
+    margin-top: 10px;
+  
+    height:150px;
+}
+.shipdiv{
+    display: flex;
+    font-size: 13px;
+    gap: 25px;
+    align-items: center;
+    color: #46474a;
+}
+.shipdiv2{
+    margin-top: 5px;
+    padding: 7px 18px 7px 18px;
+    color: #06f;
+    border-radius: 4px;
+    border-color: #06f;
+    border-style: solid;
+    background-color: #fff;
+}
+.optiondiv{
+    margin-top: 10px;
+    display: flex;
+    font-size: 13px;
+    gap: 44px;
+    align-items: center;
+    color: #46474a;
+}
+.optiondiv2{
+    margin-top: 5px;
+    padding: 7px 18px 7px 18px;
+    color: #06f;
+    border-radius: 4px;
+    border-color: #06f;
+    border-style: solid;
+    background-color: #fff;
+}
+.quantity{
+    margin-top: 30px;
+    display: flex;
+    font-size: 13px;
+    gap: 44px;
+    align-items: center;
+    color: #46474a;
+    height: 15px;
+    gap: 60px;
+    
+}
+.quantity>.boxquantity{
+    display: flex;
+    border: solid 1px #e0e6ef;
+    border-radius: 5px;
+    background: #fff;
+}
+.boxquantity>div{
+    padding: 10px;
+    
+}
+.boxquantity>.quantityincrease{
+    padding: 5px;
+    background: #fff;
+    border-color: #fff;
+    cursor: pointer;
+}
+.boxquantity>.emptydiv{
+    
+    width: 50px;
+    border-color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.boxquantity>.quantitydecrease{
+    padding: 6px;
+    background: #fff;
+    border-color: #fff;
+    cursor: pointer;
+}
+.quantitydecrease:hover{
+        background-color: grey;
+    
+}
+.quantityincrease:hover{
+    background-color: grey;
+
+}
+
+
+.buttons{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+.addtocart{
+    color: #06f;
+    background-color: #fff;
+    cursor: pointer;
+    border: 2px solid #06f;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: middle;
+    overflow: hidden;
+    padding: 15px;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    font-weight: 700;
+
+}
+
+.buynow{
+    color: #fff;
+    background-color:#06f;
+    cursor: pointer;
+    border: 2px solid #06f;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: middle;
+    overflow: hidden;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.wishlist{
+    
+ 
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+.wishlist>.heartimage{
+    width: 22px;
+    height: 22px;
+}
+.shipcountry{
+  
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+}
+.shipcountry>.div5>.country{
+    color: #06f;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.payment{
+  
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+}
+.paypal{
+    width: 50px;
+    height: 30px;
+}
+.sharediv{
+    display: flex;
+   
+    width: 250px;
+    height: 50px;
+    gap: 50px;
+    margin-left: 50px;
+   align-items: center;
+}
+.sharediv>.sociadiv{
+    display: flex;
+    gap: 10px;
+    
+}
+.sociadiv>img{
+    width: 50px;
+    height: 50px;
+}
+.sociadiv>img:hover{
+    transition-delay: 1.5s;
+}

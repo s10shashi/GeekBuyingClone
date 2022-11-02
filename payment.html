@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/payment.css" />
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <div id="payment">
+      <h2 id="paymentHeading">Shipping Address</h2>
+      <p>
+        To ensure delivery and prevent delays, please enter the valid alphabetic
+        character.
+      </p>
+      <div id="addressForm">
+        <div id="details">
+          <form id="paymentAddressForm" action="">
+            <div>
+              <label for="firstName">*First Name</label>
+              <input type="text" id="firstName" />
+            </div>
+           <div>
+            <label for="lastName">*Last Name</label>
+            <input type="text" id="lastName" />
+           </div>
+           <div>
+            
+            <label for="country">*Country/Region:</label>
+            <select name="" id="country">
+              <option value="In">India</option>
+              <option value="In">US</option>
+              <option value="In">UK</option>
+              <option value="In">Canada</option>
+              <option value="In">Pakistan</option>
+              <option value="In">Nepal</option>
+            </select>
+           </div>
+            
+            <div>
+              <label for="state">*State/County:</label>
+              <input type="text" id="state" />
+            </div>
+            <div>
+              <label for="city">*City:	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;</label>
+              <input placeholder="Your city" type="text" id="city" />
+            </div>
+  
+            <div>
+              <label for="zipCode">*Zip/Postal code: </label>
+              <input placeholder="Your ZIP/postal code" type="text" id="zipCode" />
+            </div>
+            
+            <div>
+              <label for="addressOne">*Address line1:</label>
+              <input
+                placeholder="Street address, company name,P.O box, c/o, etc"
+                type="text"
+                id="addressOne"
+              />
+            </div>
+            <div>
+              <label for="addressTwo">Address line2:</label>
+              <input
+                type="text"
+                id="addressTwo"
+                placeholder="Apartment, suite, unit, building, floor, etc (Optional)"
+              />
+            </div>
+  
+            <div>
+              
+            <label for="mobileNuber">*Phone number:</label>
+            <input type="number" placeholder="Your phone number" />
+            </div>
+  
+        </div>
+        
+          <div id="paymentButtonDiv">
+            <button id="addressSubmitButton">Save</button>
+            <button id="addressCancelButton">Cancel</button>
+          </div>
+        </form>
+      </div>
+      <h2>Product List</h2>
+      <div id="appendDataInPaymet">
+        <table style="width: 100%; border: 1px solid black">
+          <thead
+            style="background-color: #f1f1f1; padding: 20px; line-height: 45px"
+          ></thead>
+          <tbody style="border: 1px solid black" id="paymentbody"></tbody>
+        </table>
+      </div>
+      <div id="paymentBottomPart"></div>
+      <div id="placeOrderPaymentButton">
+        <button id="paymentPlace">Place Your Order</button>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
+
+<script src="./script/payment.js" type="module"></script>

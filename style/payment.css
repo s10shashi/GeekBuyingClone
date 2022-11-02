@@ -1,0 +1,172 @@
+#payment{
+    width: 90%;
+    margin: auto;
+    border: 1px solid transparent;
+    margin-bottom: 50px;
+    padding-left: 60px;
+}
+
+
+
+
+#cart {
+    border: 1px solid transparent;
+    width: 80%;
+    margin: auto;
+}
+
+#cartHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cartHeading>div:last-child>img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.cartAppendedImg {
+    width: 130px;
+    height: 116px;
+}
+
+.detailsDiv {
+    display: flex;
+    align-items: center;
+}
+
+#paymentbody {
+    border: 1px solid black;
+}
+
+#subtotalDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+#subtotalDiv>p:first-child {
+    cursor: pointer;
+}
+
+#subtotalDiv>p:last-child {
+    margin-right: 10px;
+}
+
+.minusSpan {
+    align-items: center;
+}
+
+.quntitySpan {
+    align-items: center;
+    padding-left: 10px;
+}
+
+.plusSpan {
+    align-items: center;
+ 
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+#cartBottomPart {
+    border: 1px solid transparent;
+}
+
+#cartBottomPart>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#payPalButtom {
+    background-color: #ffc439;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-family: Arial;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#checkoutButtom {
+    background-color: #0066ff;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#details{
+   
+    height:570px;
+    justify-content: start;
+    text-align:justify;
+}
+#payment input{
+    margin: auto;
+    width: 30%;
+    margin-bottom: 30px;
+    height: 25px;
+    margin-left: 40px;
+  
+}
+#paymentAddressForm>div{
+  
+    text-align: justify;
+    font-size: 10px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    gap: 10px;
+}
+#paymentButtonDiv{
+   
+    padding-left:70px;
+}
+#paymentButtonDiv>button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;  
+    gap:100px;
+
+}
+#paymentButtonDiv>button:first-child{
+    background-color: #06f;
+    border: 1px solid #06f;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#paymentButtonDiv>button:last-child{
+    border: 1px solid black;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#placeOrderPaymentButton{
+    display: flex;
+    justify-content: end;
+}
+#placeOrderPaymentButton>button{
+    background-color: #0066ff;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}

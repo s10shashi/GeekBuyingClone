@@ -1,0 +1,168 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+#navbar {
+  border: 1px solid transparent;
+  background-color: #1c7dfd;
+  /* position: relative */
+}
+#navbarTopSection {
+  display: flex;
+  justify-content: end;
+}
+#navbarTopSection p {
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+#navbarSubMain {
+  border: 1px solid transparent;
+  width: 80%;
+  margin: auto;
+}
+#navbarTopSection > div:nth-child(2) {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+#navbarMidlePart > div:first-child > img {
+  height: 40px;
+}
+
+#navbarMidlePart {
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#navbarAllCategories {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 34.6px;
+  margin-left: 35px;
+  padding-left: 10px;
+  height: 40px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  cursor: pointer;
+}
+
+#allCategoriesDropDown{
+  z-index: 1;
+}
+
+#navbarInput > input {
+  height: 36px;
+  width: 500px;
+  border: 1px solid transparent;
+}
+
+#navbarSearchSymbol > button {
+  float: left;
+  width: 46px;
+  padding: 10px;
+  background: white;
+  color: #1c7dfd;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#navbarCategories>div{
+  z-index: 1;
+}
+#navbarShip {
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent;
+  height: 20px;
+  margin-left: 45px;
+}
+
+#navbarFlag {
+  height: 20px;
+  width: 30px;
+  border: 1px solid transparent;
+}
+
+#navbarSignIn {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+#navbarSignIn > img {
+  height: 20px;
+  width: 35px;
+}
+
+.navbarArrowSymbo {
+  display: block;
+  margin-left: 5px;
+}
+
+#navbarCart {
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+#navbarShip p {
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+#navbarSignIn p {
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+#navbarBottomPart {
+  display: flex;
+  height: 40px;
+}
+
+#navbarBottomPart > div {
+  margin-right: 20px;
+  margin-right: 45px;
+}
+
+#navbarBottomPart > div > p {
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  line-height: 20px;
+  font-weight: bolder;
+}
+
+#navbarCategories {
+  display: flex;
+  background-color: #428dff;
+  width: 112px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+#navbarCategoriesSymbol {
+  margin-top: -8px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+#navbarCategoriesSymbol > p {
+  color: white;
+}
+#navbarCategoriesSymbol > p:nth-child(2) {
+  margin-top: -30px;
+  margin-bottom: -30px;
+}

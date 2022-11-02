@@ -1,0 +1,221 @@
+#footer{
+    border: 1px solid transparent;
+    background-color: #f1f6fd;
+}
+#footerFirstPart{
+    border: 1px solid transparent;
+    text-align: center;
+    color: #0066ff;
+    font-size:16px;
+    font-family:"Open Sans", sans-serif;
+    font-weight:700;
+    cursor: pointer;
+    width: 17%;
+    margin: auto;
+}
+#footerPlus{
+    margin-left: 30px;
+}
+
+#footerSecondPart{
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#footerSecondPart>input{
+    width: 40%;
+    border: 2px solid #0066ff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#footerSecondPart>input:focus {
+    border: 2px solid #0066ff;
+    outline: none;
+}
+
+#footerSecondPart>div{
+    border: 1px solid transparent;
+    background-color: #0066ff;
+    font-weight:400;
+    font-size:16px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding-left: 15px;
+    padding-right:15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#footerThirdPart{
+    display: flex;
+    border: 1px solid transparent;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#footerThirdPart>div{
+    margin-left: 50px;
+}
+#footerThirdPart>div>p{
+    color: #46474a;
+    line-height:24px;
+    font-size:12px
+
+}
+#footerDownloadTheApp{
+    margin-left: 100px !important;
+}
+
+#footerDownloadTheAppImg{
+    display: flex;
+}
+
+#footerDownloadTheAppImgSubTwo>img{
+    display:block ;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#connectWithUsLogos>img{
+    width: 20px;
+    margin-left: 10px;
+}
+
+#footerService_payment{
+    border: 1px solid transparent;
+    margin-left: 150px !important;
+}
+
+#footerService_payment>div{
+    display: flex;
+    align-items: center;
+}
+
+#footerService_payment>div>img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+#footerFourthPart{
+    border: 1px solid transparent;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+#footerFourthPart>p{
+    margin-left: 50px;
+}
+#footerFourthPart>div{
+    margin-left: 50px;
+}
+
+#footerPopularSearchesAllDivs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footerPopularSearchesAllDivs>div{
+    background-color: white;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#footerPopularSearchesAllDivs>div>p{
+    font-size:13px;
+    font-family:"Open Sans", sans-serif;
+    font-weight:400;
+    text-decoration:none solid rgb(153, 153, 153);
+    color: #999;
+}
+
+#footerFithPart{
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#footerFithPart>span{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #999;
+}
+
+#footerFithPart>p{
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-decoration: none solid rgb(153, 153, 153);
+    color: #999;
+    cursor: pointer;
+}
+
+#footerSixthPart{
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#footerSixthPart>img{
+    width: 70px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#footerSeventhPart{
+    text-align: center;
+}
+
+#footerSeventhPart>p{
+    padding: 13px 0;
+    color: #46474a;
+    font-size: 13px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif !important;
+}
+
+
+.footerThirdPartHeading{
+    line-height:30px !important;
+    font-weight:700 !important;
+    font-family:"Open Sans", sans-serif;
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+
+#footerDropDown{
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+#footerDropDown>div{
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    text-align: center;
+}
+
+#footerDropDown>div>img{
+    width: 40px;
+    height: 40px;
+}
+
+#footerDropDown>div>p:last-child{
+    margin-top: -10px;
+}

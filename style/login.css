@@ -1,0 +1,178 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+#mynav{
+    width: 100%;
+    height: 100px;
+    background-color: #1d7efd;
+   
+}
+
+#mynav>div{
+    margin: auto;
+    text-align: center;  
+}
+#image1{
+    margin-top: 25px;
+    width: 170px;
+    height: 50px;
+
+}
+
+/* form container*/
+#container{
+    width: 100%;
+    height: 420px;
+   background-image:url("https://img.gkbcdn.com/bn/2207/roborockq7max-62d4c7422b40c92434e2fa93._p1_.jpg");
+  position: absolute;
+}
+
+#formdiv{
+    
+    width: 400px;
+    background-color: white;
+    height: 420px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 3px;    
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    
+}
+#formdiv>div{
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+    color: #383533;
+    font-weight: bold;
+    line-height: 30px;
+    -webkit-font-smoothing: antialiased;    
+    width: 80%;
+    
+}
+a{
+    
+    color: rgb(118, 118, 118);
+    font-weight:lighter;
+    margin-left: 30px;
+    
+  
+}
+#agree{
+    display:flex;
+    width:100%;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 20px;
+   align-items: center;
+   -webkit-font-smoothing: antialiased;
+    margin-bottom: 10px;
+    
+    height: 40px;
+}
+.input{
+    width: 330px;
+    height: 35px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 10px;
+    -webkit-font-smoothing: antialiased;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}   
+#checkbox{
+    width:15px;
+ margin-top: 18px;
+    height: 15px;
+
+}
+#submit{
+    background-color: #0066ff;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border:none;
+}
+#forget{
+    display: flex;
+    margin-left: 3px;
+    margin-bottom: 7px;
+    gap: 10px;
+}
+#forget>p+div{
+    
+    border: 1px solid black;
+    
+    border-radius: 100%;
+    width: 10px;
+    height: 17px;
+   
+    padding-left: 4px;
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+    align-items: center;
+}
+#create{
+    margin-top: -10px;
+    width: 330px;
+    text-align: center;
+    padding-right: 25px;
+    border-radius: 5px;
+    line-height: 44px;
+    background-color: #f0f0f0;
+    border-color: #d1d1d1;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+}
+.line_or{
+    
+    height:20px;
+    border-bottom:1px solid #e6e7e8;
+    position:relative;
+    margin-top: 10px;
+}
+.line_or span{ 
+    font-size:14px;
+    width:16px;
+    color:#999;
+    background-color:#fff;
+    padding:0 13px;
+    margin-left:-21px;
+    position:absolute;
+    left:50%;
+    bottom:-9px;
+    z-index:2;
+}
+.share_btn span{
+    
+    width:35px;
+    height:35px;
+    display:inline-block;
+    cursor:pointer;
+    text-align: center;
+    border:3px solid grey;
+    
+    margin-top: 10px;
+    border-radius: 100%;
+}
+
+ .share_btn .google_icon{
+    background:url("https://content1.geekbuying.com/V1.4/en/images/footImg/google_mod.png?v=20197")no-repeat center;
+    background-size:100%;
+    margin-left:145px;
+
+  
+}
+
+.google_icon:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
+}

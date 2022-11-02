@@ -1,0 +1,123 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/* Navbar */
+#mynav{
+    width: 100%;
+    height: 100px;
+    background-color: #1d7efd;
+   
+}
+
+#mynav>div{
+    margin: auto;
+    text-align: center;  
+}
+#image1{
+    margin-top: 25px;
+    width: 170px;
+    height: 50px;
+
+}
+
+/* form container*/
+#container{
+    width: 100%;
+    height: 420px;
+   background-image:url("https://img.gkbcdn.com/bn/2207/roborockq7max-62d4c7422b40c92434e2fa93._p1_.jpg");
+  position: absolute;
+}
+
+#formdiv{
+    
+    width: 400px;
+    background-color: white;
+    height: 380px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 3px;    
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%)
+    
+}
+#formdiv>p{
+    color: #333;
+    font-size: 18px;
+    display: inline-block;
+
+    line-height: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+
+#formdiv>div{
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+ 
+    font-weight: bold;
+    line-height: 30px;
+    -webkit-font-smoothing: antialiased;    
+    width: 80%;
+    
+}
+#formdiv>div:first-child{
+    font-weight: bolder;
+    font-family: "Times New Roman", Times, serif;
+    justify-content: space-between;
+    padding-right: 20px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: rgb(32, 27, 27);
+    font-weight:lighter;
+    
+}
+
+#agree{
+    display:flex;
+    width:100%;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 30px;
+   align-items: center;
+   -webkit-font-smoothing: antialiased;
+    margin-bottom: 30px;
+}
+.input{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+#checkbox{
+    width:15px;
+ margin-top: 18px;
+    height: 10px;
+
+}
+#submit{
+    background-color: #0066ff;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border:none;
+    margin-top:20px;
+}
+
+label{
+    display: block;
+    font-size: 14px;
+    color: #666;
+    line-height: 40px;
+}

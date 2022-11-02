@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/cart.css" />
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="cart">
+      <div id="cartHeading">
+        <div id="cartTextHeading">
+        <h3>Product Name & Detail</h2>
+        </div>
+        <div> 
+            ship to <img src="./img/flag.png" alt=""> / INR &#8744
+        </div>
+      </div>
+      <div id="cartAppendingPart">
+        <table style="width:100%; border: 1px solid black;">
+            <thead style="background-color: #f1f1f1;padding: 20px;line-height: 45px;">
+                <tr>
+                    <th style="width:70%">
+                        Product Name & Detail
+                    </th>
+                    <th>
+                       Unit Price
+                    </th>
+                    <th>
+                        Quantity
+                    </th>
+                    <th>
+                        Total
+                    </th>
+                    <th>
+                        Operation
+                    </th>
+                </tr>
+            </thead>
+            <tbody style="border: 1px solid black;" id="cartTbody">
+            </tbody>
+        </table>
+      </div>
+      <div id="cartBottomPart">
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
+
+<script src="./script/cart.js" type="module"></script>
