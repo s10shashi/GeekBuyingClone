@@ -95,7 +95,7 @@ We have also added the checkout and payment page. you can also see the items you
 
 
 ## Site Made by Us
-[Click here for the deployed](https://iridescent-empanada-4f8c87.netlify.app)
+[Click here for the deployed](https://geekbuyingclone.netlify.app/)
 
 ## Copy this link to clone the Github Repository
 https://github.com/sank29/tropical-drawer-5456
